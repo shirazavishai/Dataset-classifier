@@ -1,6 +1,5 @@
 import data
 import model
-import tests
 
 df = data.analyze_and_explore_data()
 
