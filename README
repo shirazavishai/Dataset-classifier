@@ -1,0 +1,6 @@
+This code is handle with wine quality Dataset.
+Main program running data.py file.
+Data file read the data from a file and preparing it.
+Main passed the orgenized data to 3 algorithms - KNN, RandomForest and AdaBoost.
+
+For running, go to Code folder and run main.py
