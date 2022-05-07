@@ -7,7 +7,7 @@ def analyze_and_explore_data():
     plt.style.use("ggplot")
     desired_width = 320
     pd.set_option('display.width', desired_width)
-    df = pd.read_csv("..\\archive\WineQT.csv")
+    df = pd.read_csv("WineQT.csv")
     print("*****  Vino verde red wine quality  *****")
     print("DATA")
     # See the number of rows and columns
