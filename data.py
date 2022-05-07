@@ -1,10 +1,8 @@
 import pandas as pd
-import matplotlib as plt
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 
 def analyze_and_explore_data():
-    plt.style.use("ggplot")
     desired_width = 320
     pd.set_option('display.width', desired_width)
     df = pd.read_csv("WineQT.csv")
